@@ -1,7 +1,11 @@
 // () => { }
+import './style.css';
+
 const MyComponent = () => {
     return (
-        <div>Hello dangtandat update 1 </div>
+        <>
+            <div className='abc'>Hello dangtandat update 1 </div>
+        </>
     );
 }
 
