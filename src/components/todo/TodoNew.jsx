@@ -1,4 +1,7 @@
-const TodoNew = () => {
+const TodoNew = (props) => {
+    console.log(">>> check point:", props)
+    const { addNewToDo } = props;
+    addNewToDo("DangTanDat")
     return (
         <>
             <div className='todo-new'>
